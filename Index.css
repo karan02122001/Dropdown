@@ -1,0 +1,32 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: lavender;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;   
+}
+h1{
+    margin-right: 40px;
+}
+
+.search-container{
+    text-align: center;
+}
+#search-bar{
+    padding: 8px;
+    font-size: 16px;
+}
+#dropdown{
+    padding: 8px;
+    font-size: 16px;
+    display: none;
+}
+#search-btn{
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 25px;
+}
